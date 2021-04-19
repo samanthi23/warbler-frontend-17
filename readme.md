@@ -11,7 +11,3 @@
 
     * `npm install`
     * `npm start`
-    
-# set up git for this
-
-not done

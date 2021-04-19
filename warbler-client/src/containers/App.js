@@ -12,6 +12,7 @@ const App = () => (
     <Router>
       <div className="onboarding">
         <Navbar />
+        { /* add that main component */}
         <Main />
       </div>
     </Router>
