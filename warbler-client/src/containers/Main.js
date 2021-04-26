@@ -26,12 +26,16 @@ const Main = props => {
 
 // accept state and return an Object
 // make sure map state to props
+// currentUser
+// the homepage will either display the landing page or the timeline of messages
 function mapStateToProps(state) {
   return {
     currentUser: state.currentUser
   };
 }
 
+// map it to our connect function then wrap mapStateToProps inside
 // make sure to connect to the redux store as well
 // get props from the router to our component
-export default withRouter(connect(mapStateToProps)(Main));
+// then pass in our Main component
+export default withRouter(connect(mapStateToProps, null)(Main));
