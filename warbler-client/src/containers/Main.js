@@ -5,7 +5,8 @@ import { Switch, Route, withRouter, Redirect } from "react-router-dom";
 // make sure to connect to the redux store as well
 // make sure map state to props
 import { connect } from "react-redux";
-// inside of components create a new file named Homepage.js  
+// inside of components create a new file named Homepage.js 
+// sign up or sign in page
 import Homepage from "../components/Homepage";
 
 // create a component called Main
